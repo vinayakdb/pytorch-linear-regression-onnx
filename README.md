@@ -61,6 +61,9 @@ This script will load the ONNX model, prepare the input data, and execute infere
 - **src/run_onnx.py**: Loads the ONNX model and performs inference using the `ai.onnxruntime` library.
 - **src/model.py**: Defines the architecture of the linear regression model.
 
+## Note
+Generated these set of files using the AI prompt "create linear regression model into pytorch with multiple input and export model into ONNX and run ONNX model using ai.onnxruntime library"
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
