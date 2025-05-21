@@ -22,8 +22,18 @@ pytorch-linear-regression-onnx
    git clone <repository-url>
    cd pytorch-linear-regression-onnx
    ```
-
-2. Install the required dependencies:
+2. Prepare the python virtual environment:
+   ```
+   # Create a user-specific virtual env
+   cd ~
+   python3 -m venv venv
+   # Change back to the repo folder.
+   cd -
+   # Activate the virtual env
+   source ~/venv/bin/activate
+   ```
+   
+3. Install the required dependencies:
    ```
    pip install -r requirements.txt
    ```
